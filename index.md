@@ -13,6 +13,7 @@ layout: default
         background-color: #f9f9f9;
         text-align: center;
         padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .profile-box img {
         width: 100px;
@@ -26,26 +27,32 @@ layout: default
         margin: 0;
         font-weight: bold;
     }
-    .profile-box p {
-        margin: 10px 0;
-        color: #555;
-        font-size: 1em;
+    .profile-box .keywords {
+        background-color: #007bff;
+        color: white;
+        font-size: 0.9em;
+        padding: 8px;
+        border-radius: 8px;
+        margin: 15px 0;
     }
-    .profile-box .title {
-        color: #007bff;
-        font-size: 1.1em;
-        margin: 5px 0;
+    .profile-box .title-container {
+        margin-top: 20px;
     }
-    .profile-box .institution {
-        font-size: 1em;
-        margin: 10px 0;
-        font-weight: bold;
+    .profile-box .title-section {
+        background-color: #f0f0f0;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 10px;
     }
-    .profile-box .logo {
+    .profile-box .institution-logo {
         width: 30px;
         height: auto;
-        margin-right: 5px;
+        margin-right: 8px;
         vertical-align: middle;
+    }
+    .profile-box .title-section p {
+        margin: 5px 0;
+        font-size: 0.95em;
     }
     .profile-box .qualification {
         font-size: 0.9em;
@@ -57,17 +64,21 @@ layout: default
 <div class="profile-box">
     <img src="assets/moi.jpg" alt="Profile Picture">
     <h2>Robin BRETIN</h2>
-    <p class="title">Human–Drone Interaction, Proxemics, Mixed Reality Application to Research</p>
-    
-    <div class="institution">
-        <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="logo" alt="University Logo">
-        <span>PhD Student (Psychology/Computing Science) at University of Glasgow</span>
-        <p class="qualification">Graduate in December 2024</p>
+    <div class="keywords">
+        Human–Drone Interaction, Proxemics, Mixed Reality Application to Research
     </div>
-    
-    <div class="institution">
-        <img src="https://ensc.bordeaux-inp.fr/sites/default/files/upload/BordeauxINP/FOOTER/COMMUNICATION/LOGOS/logo_ensc.jpg" class="logo" alt="Institution Logo">
-        <span>Cognitive Engineer (since 2020)</span>
+
+    <div class="title-container">
+        <div class="title-section">
+            <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="logo" alt="University Logo">
+            <p><strong>PhD Student</strong> (Psychology/Computing Science) at University of Glasgow</p>
+            <p class="qualification">Graduate in December 2024</p>
+        </div>
+        
+        <div class="title-section">
+            <img src="https://ensc.bordeaux-inp.fr/sites/default/files/upload/BordeauxINP/FOOTER/COMMUNICATION/LOGOS/logo_ensc.jpg" class="logo" alt="Institution Logo">
+            <p><strong>Cognitive Engineer</strong> (since 2020)</p>
+        </div>
     </div>
 </div>
 
@@ -101,10 +112,6 @@ Outside of research, my interests are all over the place, keeping me inspired an
     }
     .state-box .date {
         font-style: italic;
-        margin-top: 5px;
-    }
-    .state-box .title {
-        font-style: bold;
         margin-top: 5px;
     }
 </style>
