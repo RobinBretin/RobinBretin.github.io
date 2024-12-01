@@ -16,7 +16,7 @@ Outside of research, my interests are all over the place, keeping me inspired an
 
 <style>
     .state-box {
-        border: 2px solid blue;
+        border: 1px solid;
         background-color: #f4f4f4;
         padding: 10px;
         border-radius: 8px;
@@ -27,48 +27,23 @@ Outside of research, my interests are all over the place, keeping me inspired an
     .state-box p {
         margin: 0;
         text-align: left; /* Ensure the text inside the box is aligned left */
+        font-size: 0.8em;
     }
     .state-box .date {
         font-style: italic;
         margin-top: 5px;
     }
-</style>
-
-<div class="state-box">
-    <p class="date">(last updated 01/12/2024)</p>
-    <p>Thesis submitted, preparing for my Viva in early December 2024. I'm actively exploring Post Doc opportunities and would love to connect—feel free to reach out!</p>
-</div>
-
-
-<style>
-    .state-box {
-        border: 2px solid blue;
-        background-color: #f4f4f4;
-        padding: 20px;
-        border-radius: 8px;
-        width: fit-content;
-        margin: 20px auto;
-        font-family: Arial, sans-serif;
-        text-align: center;
-    }
-    .state-box h3 {
-        margin: 0;
-        font-size: 1.5em;
-    }
-    .state-box p {
-        margin: 5px 0 0;
-    }
-    .state-box .date {
-        font-style: italic;
-        margin-top: 10px;
+    .state-box .title {
+        font-style: bold;
+        margin-top: 5px;
     }
 </style>
 
 <div class="state-box">
-    <h3>Current Status</h3>
-    <p class="date">(last updated 01/12/2024)</p>
+    <p class="title">Current Status </p><p class="date">(last updated 01/12/2024)</p>
     <p>Thesis submitted, preparing for my Viva in early December 2024. I'm actively exploring Post Doc opportunities and would love to connect—feel free to reach out!</p>
 </div>
+
 
 
 ## Lastest Publications
