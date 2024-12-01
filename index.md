@@ -14,9 +14,9 @@ layout: default
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="research.md" class="nav-link">Research</a></li>
-        <li class="nav-item"><a href="publication.md" class="nav-link">Publications</a></li>
-        <li class="nav-item"><a href="contact.md" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="research.html" class="nav-link">Research</a></li>
+        <li class="nav-item"><a href="publication.html" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
     </header>
   </div>
