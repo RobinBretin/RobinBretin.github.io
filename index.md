@@ -111,16 +111,14 @@ layout: default
         <!-- Logo and Title -->
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4">Simple header</span>
+            <span class="fs-4">Robin Bretin, A Hero Among Man</span>
         </a>
 
         <!-- Navigation Links -->
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="research.html" class="nav-link active" aria-current="page">Research</a></li>
+            <li class="nav-item"><a href="publication.html" class="nav-link">Publications</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
     </div>
 </div>
