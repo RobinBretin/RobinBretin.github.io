@@ -144,14 +144,10 @@ layout: default
         text-align: left; /* Ensure the text inside the box is aligned left */
         font-size: 0.8em;
     }
-    .state-box .date {
-        font-style: italic;
-        margin-top: 5px;
-    }
 </style>
 
 <div class="state-box">
-    <p><strong>Current Status </strong><p class="date">(last updated 01/12/2024)</p></p>
+    <p><strong>Current Status:</strong> <em>Last updated 01/12/2024</em></p>
     <p>Thesis submitted, preparing for my Viva in early December 2024. I'm actively exploring Post Doc opportunities and would love to connect—feel free to reach out!</p>
 </div>
 
