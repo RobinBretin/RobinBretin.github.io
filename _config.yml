@@ -6,7 +6,6 @@ author: "Robin Bretin"
 
 # Navigation links
 header_pages:
-  - about.md
   - research.md
   - publication.md
   - contact.md
