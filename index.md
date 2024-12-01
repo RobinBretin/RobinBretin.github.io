@@ -98,7 +98,7 @@ layout: default
         text-align: center;
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin-right: 30px; /* Add space between the profile and content */
+        margin-left: 30px; /* Add space between the profile and content */
     }
     .profile-box img {
         width: 120px; /* Adjust size */
