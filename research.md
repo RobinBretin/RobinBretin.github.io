@@ -1,7 +1,8 @@
 ---
-title Research
-layout default
+title: "Research"
+layout: default
 ---
+
 # My Research
 ## Ongoing Projects
 - Project Title Brief description.
