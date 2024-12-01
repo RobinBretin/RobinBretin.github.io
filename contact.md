@@ -6,6 +6,9 @@ layout: default
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
 <style>
 /* Hide the footer */
 .site-footer {
@@ -30,9 +33,14 @@ layout: default
 </div>
 
 # Contact Me
-- Email: [yourname@example.com](mailto:yourname@example.com)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+-📧 Email: [r.bretin.1@research.gla.ac.uk](mailto:r.bretin.1@research.gla.ac.uk)
+- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/robin-bretin-21974015a/)
+- ResearchGate: [My ResearchGate Profile](https://www.researchgate.net/profile/Robin-Bretin)
+- ORCID: [My ORCID](https://orcid.org/0000-0003-2918-1901)
+- Google Scholar: [My Google Scholar Profile](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr)
 
 
-
+<i class="fas fa-book"></i>
+<i class="fab fa-linkedin">
+<i class="fas fa-graduation-cap">
+<i class="fab fa-orcid"></i>
