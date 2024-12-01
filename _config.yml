@@ -1,3 +1,12 @@
 theme: minima
-title: "Robin Research Journey "
+title: "Robin Research Journey"
 description: "A personal website showcasing my research and projects."
+
+
+# Navigation links
+header_pages:
+  - index.md
+  - about.md
+  - research.md
+  - publications.md
+  - contact.md
