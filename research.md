@@ -30,10 +30,11 @@ layout: default
 </div>
 
 
-# My Research Activities
-## Ongoing Projects
-- Project Title Brief description.
-- Collaborators Name, Institution.
+# My Research Activities (WORK IN PROGRESS)
 
+## Current Project
+## Collaborations
+## Supervision
+## Reviewing
+## Fundings
 ## Past Projects
-- Another Project Title Summary or outcomes.
