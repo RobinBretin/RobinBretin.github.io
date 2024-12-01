@@ -4,101 +4,19 @@ layout: default
 ---
 
 <style>
-/* Reapply the default header styles from Minima theme */
 
-/* Remove underline from the title */
-.site-header h1 {
-    font-size: 2.5em;
-    font-weight: normal;
-    color: #333;
-    margin: 0;
-    text-decoration: none; /* Remove any text underline */
-}
-
-/* Prevent Bootstrap from affecting the header */
-.site-header {
-    background-color: #fff;
-    padding: 1.5em 0;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
-
-.site-header nav {
-    margin-top: 10px;
-}
-
-.site-header nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centers the navigation */
-}
-
-.site-header nav ul li {
-    margin-right: 20px; /* Space between each link */
-}
-
-.site-header nav ul li a {
-    text-decoration: none;
-    color: #007acc;
-    font-weight: bold;
-}
-
-.site-header nav ul li a:hover {
-    color: #005f99;
-}
-
-/* Prevent Bootstrap from altering the header styles */
-.site-header {
-    all: unset; /* Reset any inherited Bootstrap styles */
-    position: relative;
-    padding: 1.5em 0;
-    background-color: #fff; /* Ensure it has the correct background color */
-    border-bottom: 1px solid #ddd;
-}
-
-.site-header h1 {
-    font-size: 2.5em;
-    font-weight: normal;
-    color: #333;
-    margin: 0;
-}
-
-.site-header nav {
-    margin-top: 10px;
-}
-
-.site-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.site-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.site-header nav ul li a {
-    text-decoration: none;
-    color: #007acc;
-    font-weight: bold;
-}
-
-.site-header nav ul li a:hover {
-    color: #005f99;
-}
 
 /* Hide the footer */
 .site-footer {
     display: none;
 }
 
+.site-header {
+    display: none;
+}
 </style>
 
 <style>
-
-
-
     /* Outer container to hold both the profile and content */
     .container {
         display: flex;
