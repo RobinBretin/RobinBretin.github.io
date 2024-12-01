@@ -106,13 +106,13 @@ layout: default
         
         <div class="title-container">
             <div class="title-section">
-                <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="logo" alt="University Logo">
+                <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="institution-logo" alt="University Logo">
                 <p><strong>PhD Student</strong> (Psychology/Computing Science) at University of Glasgow</p>
                 <p class="qualification">Graduate in December 2024</p>
             </div>
             
             <div class="title-section">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh86n1YVfHLDAtUhyLxFdGXSPXVyqfyd6yMg&s" class="logo" alt="Institution Logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh86n1YVfHLDAtUhyLxFdGXSPXVyqfyd6yMg&s" class="institution-logo" alt="Institution Logo">
                 <p><strong>Cognitive Engineer</strong> (since 2020)</p>
             </div>
         </div>
@@ -127,6 +127,11 @@ layout: default
         
         <p>Beyond research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. Since the time I've written this, I’ve probably engaged in a new personal project.</p>
     </div>
+
+    <div class="state-box">
+            <p><strong>Current Status:</strong> <em>last updated 01/12/2024</em></p>
+            <p>Thesis submitted, preparing my Viva for early December 2024. Looking for Post-Doc opportunities, feel free to contact me!</p>
+        </div>
 </div>
 
 <style>
