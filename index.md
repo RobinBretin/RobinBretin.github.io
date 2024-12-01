@@ -217,14 +217,110 @@ layout: default
       </div>
     </div>
 
-    <!-- Second item: PDF -->
     <div class="carousel-item">
-      <iframe src="assets/protocol.pdf" class="d-block w-100" style="height: 500px;" frameborder="0"></iframe>
+      <img src="assets/path (1)-1.png" class="d-block w-100" alt="Third Slide">
       <div class="carousel-caption-below">
-        <h5>Second Slide Title</h5>
-        <p>Short description of the PDF.</p>
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
       </div>
     </div>
+
+    <div class="carousel-item">
+      <img src="assets/pathsV3-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/Protocol-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/output2.gif" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/P-visual-V2 (1)-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/Rplot06 (1)-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/Rplot06 (2)-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/Rplot06-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/shematPT-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/V4-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/VR_RW environment-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/vrr-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/VRtoRW-1.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
 
     <!-- Third item: Image -->
     <div class="carousel-item">
@@ -235,13 +331,6 @@ layout: default
       </div>
     </div>
 
-    <div class="carousel-item">
-      <iframe src="assets/pathsV3.pdf" class="d-block w-100" style="height: 500px;" frameborder="0"></iframe>
-      <div class="carousel-caption-below">
-        <h5>Second Slide Title</h5>
-        <p>Short description of the PDF.</p>
-      </div>
-    </div>
 
     <div class="carousel-item">
       <img src="assets/Overall.png" class="d-block w-100" alt="Third Slide">
@@ -274,7 +363,6 @@ layout: default
         <p>Short description of the image.</p>
       </div>
     </div>
-
 
 
   </div>
