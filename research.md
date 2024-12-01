@@ -10,3 +10,10 @@ layout: default
 
 ## Past Projects
 - Another Project Title Summary or outcomes.
+
+
+<style>
+  .footer {
+    display: none;
+  }
+</style>

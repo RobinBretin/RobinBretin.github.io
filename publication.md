@@ -24,3 +24,10 @@ layout: default
 
 ## Preprint
 9. Xiangmin Xu, Emma Liying Li, Mohamed Khamis, Guodong Zhao, and Robin Bretin. 2024. Understanding Dynamic Human-Robot Proxemics in the Case of Four-Legged Canine-Inspired Robots. https://doi.org/10.48550/arXiv.2302.10729
+
+
+<style>
+  .footer {
+    display: none;
+  }
+</style>

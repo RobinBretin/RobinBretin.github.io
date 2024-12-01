@@ -55,3 +55,10 @@ Outside of research, my interests are all over the place, keeping me inspired an
 - 📄 [My CV](cv.pdf)
 - 📚 [Publications](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr)
 - 🖇️ [Contact Me](r.bretin.1@research.gla.ac.uk)
+
+
+<style>
+  .footer {
+    display: none;
+  }
+</style>
