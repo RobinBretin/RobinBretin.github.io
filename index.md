@@ -208,6 +208,7 @@ layout: default
 
 <div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
   <div class="carousel-inner">
+    <!-- First item: Image -->
     <div class="carousel-item active">
       <img src="assets/moi.jpg" class="d-block w-100" alt="First Slide">
       <div class="carousel-caption-below">
@@ -215,21 +216,70 @@ layout: default
         <p>Short description of the image.</p>
       </div>
     </div>
+
+    <!-- Second item: PDF -->
     <div class="carousel-item">
-      <img src="assets/moi.jpg" class="d-block w-100" alt="Second Slide">
+      <iframe src="assets/protocol.pdf" class="d-block w-100" style="height: 500px;" frameborder="0"></iframe>
       <div class="carousel-caption-below">
         <h5>Second Slide Title</h5>
-        <p>Short description of the image.</p>
+        <p>Short description of the PDF.</p>
       </div>
     </div>
+
+    <!-- Third item: Image -->
     <div class="carousel-item">
-      <img src="assets/moi.jpg" class="d-block w-100" alt="Third Slide">
+      <img src="assets/chalmers.png" class="d-block w-100" alt="Third Slide">
       <div class="carousel-caption-below">
         <h5>Third Slide Title</h5>
         <p>Short description of the image.</p>
       </div>
     </div>
+
+    <div class="carousel-item">
+      <iframe src="assets/pathsV3.pdf" class="d-block w-100" style="height: 500px;" frameborder="0"></iframe>
+      <div class="carousel-caption-below">
+        <h5>Second Slide Title</h5>
+        <p>Short description of the PDF.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/Overall.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/drones_chalmers.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/VR_room.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="assets/Screenshot 2023-09-19 110253.png" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+
+
+
   </div>
+
+  <!-- Carousel Controls -->
   <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -239,6 +289,7 @@ layout: default
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 <style>
   .carousel-caption-below {
