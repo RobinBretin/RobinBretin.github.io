@@ -5,6 +5,16 @@ layout: default
 # Welcome to My Research Page
 
 <style>
+    /* Outer container to hold both the profile and content */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    
+    /* Profile box styles */
     .profile-box {
         border: 2px solid #ddd;
         border-radius: 12px;
@@ -14,35 +24,38 @@ layout: default
         text-align: center;
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-right: 30px; /* Add space between the profile and content */
     }
     .profile-box img {
-        width: 100px;
-        height: 100px;
+        width: 120px; /* Adjust size */
+        height: 120px; /* Adjust size */
         border-radius: 50%;
         object-fit: cover;
         margin-bottom: 15px;
     }
     .profile-box h2 {
-        font-size: 1.5em;
+        font-size: 1.8em;
         margin: 0;
         font-weight: bold;
+        line-height: 1.2;
     }
     .profile-box .keywords {
         background-color: #007bff;
         color: white;
         font-size: 0.9em;
-        padding: 8px;
+        padding: 12px;
         border-radius: 8px;
         margin: 15px 0;
+        line-height: 1.4;
     }
     .profile-box .title-container {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .profile-box .title-section {
         background-color: #f0f0f0;
         padding: 12px;
         border-radius: 8px;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     .profile-box .institution-logo {
         width: 30px;
@@ -52,36 +65,66 @@ layout: default
     }
     .profile-box .title-section p {
         margin: 5px 0;
-        font-size: 0.95em;
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 1.3;
     }
     .profile-box .qualification {
         font-size: 0.9em;
         font-style: italic;
         margin-top: 5px;
     }
+    
+    /* Content area style */
+    .content-area {
+        max-width: 800px;
+        flex-grow: 1;
+    }
+    .content-area h1 {
+        font-size: 2.4em;
+        margin-bottom: 20px;
+    }
+    .content-area p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
 </style>
 
-<div class="profile-box">
-    <img src="assets/moi.jpg" alt="Profile Picture">
-    <h2>Robin BRETIN</h2>
-    <div class="keywords">
-        Human–Drone Interaction, Proxemics, Mixed Reality Application to Research
-    </div>
-
-    <div class="title-container">
-        <div class="title-section">
-            <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="logo" alt="University Logo">
-            <p><strong>PhD Student</strong> (Psychology/Computing Science) at University of Glasgow</p>
-            <p class="qualification">Graduate in December 2024</p>
+<div class="container">
+    <!-- Profile Box -->
+    <div class="profile-box">
+        <img src="assets/moi.jpg" alt="Profile Picture">
+        <h2>Robin BRETIN</h2>
+        
+        <div class="keywords">
+            Human–Drone Interaction, Proxemics, Mixed Reality Application to Research
         </div>
         
-        <div class="title-section">
-            <img src="https://ensc.bordeaux-inp.fr/sites/default/files/upload/BordeauxINP/FOOTER/COMMUNICATION/LOGOS/logo_ensc.jpg" class="logo" alt="Institution Logo">
-            <p><strong>Cognitive Engineer</strong> (since 2020)</p>
+        <div class="title-container">
+            <div class="title-section">
+                <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="logo" alt="University Logo">
+                <p><strong>PhD Student</strong> (Psychology/Computing Science) at University of Glasgow</p>
+                <p class="qualification">Graduate in December 2024</p>
+            </div>
+            
+            <div class="title-section">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh86n1YVfHLDAtUhyLxFdGXSPXVyqfyd6yMg&s" class="logo" alt="Institution Logo">
+                <p><strong>Cognitive Engineer</strong> (since 2020)</p>
+            </div>
         </div>
     </div>
-</div>
 
+    <!-- Content Area (right side) -->
+    <div class="content-area">
+        <h1>About Me</h1>
+        <p>I’m a curious researcher with a passion for learning and exploring. In my thesis, I focused on how people use space around autonomous drones and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
+        
+        <p>The knowledge and skills I gained throughout this project have also allowed me to collaborate on a variety of exciting projects, from child safety in social VR and authentication techniques for ATMs to enhancing social robot interactions.</p>
+        
+        <p>Beyond research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, a love for animals, programming, video games, films, sports, and learning new languages. Since the time I've written this, I’ve probably engaged in a new personal project.</p>
+    </div>
+</div>
 
 
 Hi there, and welcome to my research page! I’m Robin.
