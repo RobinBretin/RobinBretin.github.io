@@ -224,7 +224,6 @@ Explore a collection of illustrations, graphics, and images from my various proj
     <div class="carousel-item">
       <img src="assets/Protocol-1.png" class="d-block w-100" alt="Third Slide">
       <div class="carousel-caption-below">
-        <h5>Third Slide Title</h5>
         <p>Diagram of participants' Protocol. The process begins after participants have been welcomed and have signed the consent form. Dotted lines indicate steps occurring in the virtual environment, while solid lines represent actions in the real world. (1) Participants provided demographic information and completed the NARS on the experimenter's computer after signing the consent form. (2) Participants received task instructions and specifics of the virtual environment. The experimenter clarified instructions, answered questions, and showed a video demonstration of an explosive box. (3) Participants were immersed in the virtual environment and underwent a practice session without the drone. They performed the experimental task in a simplified environment, allowing them to grab and drop boxes, navigate, and interact with the virtual screen. (4) Participants proceeded with the experimental task by initiating it after reviewing scenario details and clicking "Start". Upon activation, the drone commenced its task, mirroring that of the participants. Participants were tasked with locating and grabbing the highlighted cube, then depositing it within the designated zone. This process repeated for subsequent cubes while avoiding the drone, which occasionally carried explosive boxes. After moving multiple cubes, the drone ceased flying, and the virtual screen reappeared, marking the scenario's end. Participants then answered questions before advancing to the next scenario by clicking "Continue" or removing the headset after completing both scenarios. (5) Participants proceeded to answer the IPQ and FMS on the experimenter's computer. (6) The study concluded with a short semi-directed interview.</p>
       </div>
     </div>
@@ -318,7 +317,6 @@ Explore a collection of illustrations, graphics, and images from my various proj
     <div class="carousel-item">
       <img src="assets/Screenshot 2023-09-19 110253.png" class="d-block w-100" alt="Third Slide">
       <div class="carousel-caption-below">
-        <h5>Third Slide Title</h5>
         <p>The experimental room and the real Parrot AR.Drone 2.0 (top) next to their virtual replica (bottom) in Unity 3D. Participants' paths were recorded in the simulation, allowing the accurate assessment of proxemic preferences around the drone, in a safe and realistic environment.</p>
       </div>
     </div>
