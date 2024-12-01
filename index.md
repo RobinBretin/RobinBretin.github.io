@@ -58,7 +58,7 @@ layout: default
         margin-bottom: 8px;
     }
     .profile-box .institution-logo {
-        width: 30px;
+        width: 20px;
         height: auto;
         margin-right: 8px;
         vertical-align: middle;
@@ -121,11 +121,11 @@ layout: default
     <!-- Content Area (right side) -->
     <div class="content-area">
         <h1>About Me</h1>
-        <p>I’m a curious researcher with a passion for learning and exploring. In my thesis, I focused on how people use space around autonomous drones and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
+        <p>I’m a curious researcher with a passion for learning and exploring. In my research, I focuses on how people use space around autonomous drones and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
         
         <p>The knowledge and skills I gained throughout this project have also allowed me to collaborate on a variety of exciting projects, from child safety in social VR and authentication techniques for ATMs to enhancing social robot interactions.</p>
         
-        <p>Beyond research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, a love for animals, programming, video games, films, sports, and learning new languages. Since the time I've written this, I’ve probably engaged in a new personal project.</p>
+        <p>Beyond research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. Since the time I've written this, I’ve probably engaged in a new personal project.</p>
     </div>
 </div>
 
