@@ -3,6 +3,76 @@ title: "Home"
 layout: default
 ---
 # Welcome to My Research Page
+
+<style>
+    .profile-box {
+        border: 2px solid #ddd;
+        border-radius: 12px;
+        width: 300px;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        text-align: center;
+        padding: 20px;
+    }
+    .profile-box img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+    .profile-box h2 {
+        font-size: 1.5em;
+        margin: 0;
+        font-weight: bold;
+    }
+    .profile-box p {
+        margin: 10px 0;
+        color: #555;
+        font-size: 1em;
+    }
+    .profile-box .title {
+        color: #007bff;
+        font-size: 1.1em;
+        margin: 5px 0;
+    }
+    .profile-box .institution {
+        font-size: 1em;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    .profile-box .logo {
+        width: 30px;
+        height: auto;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    .profile-box .qualification {
+        font-size: 0.9em;
+        font-style: italic;
+        margin-top: 5px;
+    }
+</style>
+
+<div class="profile-box">
+    <img src="assets/moi.jpg" alt="Profile Picture">
+    <h2>Robin BRETIN</h2>
+    <p class="title">Human–Drone Interaction, Proxemics, Mixed Reality Application to Research</p>
+    
+    <div class="institution">
+        <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="logo" alt="University Logo">
+        <span>PhD Student (Psychology/Computing Science) at University of Glasgow</span>
+        <p class="qualification">Graduate in December 2024</p>
+    </div>
+    
+    <div class="institution">
+        <img src="https://ensc.bordeaux-inp.fr/sites/default/files/upload/BordeauxINP/FOOTER/COMMUNICATION/LOGOS/logo_ensc.jpg" class="logo" alt="Institution Logo">
+        <span>Cognitive Engineer (since 2020)</span>
+    </div>
+</div>
+
+
+
 Hi there, and welcome to my research page! I’m Robin.
 
 I’m a curious researcher with a passion for learning and exploring new ideas.
