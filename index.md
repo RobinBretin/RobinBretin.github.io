@@ -15,27 +15,32 @@ Outside of research, my interests are all over the place, keeping me inspired an
 
 <style>
     .state-box {
-        border: 2px solid green;
+        border: 2px solid blue;
         background-color: #f4f4f4;
-        padding: 10px;
+        padding: 20px;
         border-radius: 8px;
         width: fit-content;
-        margin-top: 20px;
+        margin: 20px auto;
         font-family: Arial, sans-serif;
+        text-align: center;
     }
     .state-box h3 {
         margin: 0;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .state-box p {
         margin: 5px 0 0;
     }
+    .state-box .date {
+        font-style: italic;
+        margin-top: 10px;
+    }
 </style>
 
 <div class="state-box">
-    <h3>Currently</h3> (last updated 01/12/2024)
-    <p></p>
-    <p>Thesis submitted, preparing my Viva for early December 2024.  Looking for Post Doc opportunities, do not hesitate to contact me.</p>
+    <h3>Current Status</h3>
+    <p class="date">(last updated 01/12/2024)</p>
+    <p>Thesis submitted, preparing for my Viva in early December 2024. I'm actively exploring Post Doc opportunities and would love to connect—feel free to reach out!</p>
 </div>
 
 
