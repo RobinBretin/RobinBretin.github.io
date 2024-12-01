@@ -5,18 +5,22 @@ layout: default
 
 <style>
 /* Reapply the default header styles from Minima theme */
-.site-header {
-    background-color: #fff;
-    padding: 1.5em 0;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
 
+/* Remove underline from the title */
 .site-header h1 {
     font-size: 2.5em;
     font-weight: normal;
     color: #333;
     margin: 0;
+    text-decoration: none; /* Remove any text underline */
+}
+
+/* Prevent Bootstrap from affecting the header */
+.site-header {
+    background-color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 .site-header nav {
@@ -26,11 +30,12 @@ layout: default
 .site-header nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the navigation */
 }
 
 .site-header nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin-right: 20px; /* Space between each link */
 }
 
 .site-header nav ul li a {
