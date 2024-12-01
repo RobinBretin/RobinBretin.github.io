@@ -4,6 +4,8 @@ layout: default
 ---
 # Publications
 
+Most of my publications can be found here 📚 [Publications](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr)
+
 ## Conference Papers
 ### 2024
 4. Cristina Fiani, Robin Bretin, Shaun Alexander Macdonald, Mohamed Khamis, and Mark Mcgill. 2024. “Pikachu would electrocute people who are misbehaving”: Expert, Guardian and Child Perspectives on Automated Embodied Moderators for Safeguarding Children in Social Virtual Reality. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI ’24), 1–23. https://doi.org/10.1145/3613904.3642144
@@ -25,6 +27,8 @@ layout: default
 ## Preprint
 9. Xiangmin Xu, Emma Liying Li, Mohamed Khamis, Guodong Zhao, and Robin Bretin. 2024. Understanding Dynamic Human-Robot Proxemics in the Case of Four-Legged Canine-Inspired Robots. https://doi.org/10.48550/arXiv.2302.10729
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <style>
 
