@@ -58,7 +58,7 @@ layout: default
         margin-bottom: 8px;
     }
     .profile-box .institution-logo {
-        width: 30px ;
+        width: 50px ;
         height: auto;
         margin-right: 8px;
         vertical-align: middle;
