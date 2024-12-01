@@ -10,3 +10,13 @@ header_pages:
   - research.md
   - publications.md
   - contact.md
+
+
+gems:
+  - jekyll-scholar
+
+
+scholar:
+  source: "assets/MyPublications.bib" # Path to your BibTeX file
+  style: "apa" # Or another style like "ieee", "mla"
+  bibliography: "MyPublications.bib"
