@@ -2,7 +2,6 @@
 title: "Home"
 layout: default
 ---
-# Welcome to My Research Page
 
 <style>
     /* Outer container to hold both the profile and content */
