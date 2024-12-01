@@ -4,20 +4,83 @@ layout: default
 ---
 
 <style>
-/* Make sure the header styles are not affected by Bootstrap */
+/* Reapply the default header styles from Minima theme */
 .site-header {
-    all: unset;  /* Reset all inherited styles from Bootstrap */
-    position: relative;
-    padding: 20px;
-    background: #fff; /* Or whatever background you want */
-    border-bottom: 1px solid #ccc; /* Optional, if you want a border */
-    text-align: center; /* Or adjust as needed */
+    background-color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
-.site-header h1,
+.site-header h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #333;
+    margin: 0;
+}
+
 .site-header nav {
-    font-weight: normal;  /* Ensure that the default header text style is kept */
-    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.site-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.site-header nav ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+.site-header nav ul li a:hover {
+    color: #005f99;
+}
+
+/* Prevent Bootstrap from altering the header styles */
+.site-header {
+    all: unset; /* Reset any inherited Bootstrap styles */
+    position: relative;
+    padding: 1.5em 0;
+    background-color: #fff; /* Ensure it has the correct background color */
+    border-bottom: 1px solid #ddd;
+}
+
+.site-header h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #333;
+    margin: 0;
+}
+
+.site-header nav {
+    margin-top: 10px;
+}
+
+.site-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.site-header nav ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+.site-header nav ul li a:hover {
+    color: #005f99;
 }
 
 /* Hide the footer */
@@ -136,7 +199,7 @@ layout: default
 
         <p>I’m a curious researcher with a passion for learning and exploring. In my research, I focuses on how people use space around autonomous drones and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
         
-        <p>The knowledge and skills I gained throughout this project have also allowed me to collaborate on a variety of exciting projects, from child safety in social VR and authentication techniques for ATMs to enhancing social robot interactions.</p>
+        <p>The knowledge and skills I gained throughout my work have also allowed me to collaborate on a variety of exciting projects, from child safety in social VR and authentication techniques for ATMs to enhancing social robot interactions.</p>
         
         <p>Beyond research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. Since the time I've written this, I’ve probably engaged in a new personal project.</p>
 
@@ -157,7 +220,7 @@ layout: default
         
             <div class="title-section">
                 <img src="https://pbs.twimg.com/profile_images/1178956117403152384/6RH8cW7j_400x400.png" class="institution-logo" alt="Institution Logo">
-                <p><strong>Post Doctorale Researcher </strong> at Télécom Paris</p>
+                <p><strong>Post Doctoral Researcher </strong> at Télécom Paris</p>
                 <p class="qualification">(from February 2025)</p>
                 <p> XR for Crisis Managment </p>
             </div>
