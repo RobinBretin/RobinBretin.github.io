@@ -3,6 +3,66 @@ title: "Home"
 layout: default
 ---
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/image1.jpg" class="d-block w-100" alt="First Slide">
+      <div class="carousel-caption-below">
+        <h5>First Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/image2.jpg" class="d-block w-100" alt="Second Slide">
+      <div class="carousel-caption-below">
+        <h5>Second Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/image3.jpg" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<style>
+  .carousel-caption-below {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa; /* Optional: Light gray background */
+    border-top: 1px solid #ddd; /* Optional: Separator line */
+  }
+
+  .carousel-caption-below h5 {
+    margin: 5px 0;
+    font-size: 1.25em;
+  }
+
+  .carousel-caption-below p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+  }
+</style>
+
+<!-- Separator Line -->
+  <hr class="my-4">
+
 <style>
     /* Outer container to hold both the profile and content */
     .container {
@@ -163,36 +223,7 @@ layout: default
 
 - 📄 [My CV](cv.pdf) - 📚 [Publications](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr) - 🖇️ [Contact Me](r.bretin.1@research.gla.ac.uk)
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<div id="researchCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/moi.jpg" class="d-block w-100" alt="Figure 1">
-            <div class="carousel-caption d-none d-md-block">
-                <p>Figure 1: Description of the image.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="assets/moi.jpg" class="d-block w-100" alt="Figure 2">
-            <div class="carousel-caption d-none d-md-block">
-                <p>Figure 2: Description of the image.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="assets/moi.jpg" class="d-block w-100" alt="Figure 3">
-            <div class="carousel-caption d-none d-md-block">
-                <p>Figure 3: Description of the image.</p>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+
+
+
