@@ -30,11 +30,7 @@ layout: default
 </div>
 
 
-# My Research Activities (WORK IN PROGRESS)
+# My Research Activities 
+(WORK IN PROGRESS)
 
-## Current Project
-## Collaborations
-## Supervision
-## Reviewing
-## Fundings
-## Past Projects
+
