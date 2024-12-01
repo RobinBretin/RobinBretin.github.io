@@ -3,9 +3,10 @@ title: "Home"
 layout: default
 ---
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <style>
-
-
 /* Hide the footer */
 .site-footer {
     display: none;
@@ -115,7 +116,7 @@ layout: default
         <!-- Navigation Links -->
         <ul class="nav nav-pills">
             <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">About</a></li>
-            <li class="nav-item"><a href="research.html" class="nav-link active" aria-current="page">Research</a></li>
+            <li class="nav-item"><a href="research.html" class="nav-link" aria-current="page">Research</a></li>
             <li class="nav-item"><a href="publication.html" class="nav-link">Publications</a></li>
             <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
@@ -205,8 +206,7 @@ layout: default
 <!-- Separator Line -->
   <hr class="my-4">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 
 <div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
   <div class="carousel-inner">
