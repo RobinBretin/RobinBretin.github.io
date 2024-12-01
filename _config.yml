@@ -1,6 +1,7 @@
 theme: minima
 title: "Robin Research Journey"
 description: "A personal website showcasing my research and projects."
+author: Robin Bretin
 
 
 # Navigation links
@@ -9,3 +10,4 @@ header_pages:
   - research.md
   - publication.md
   - contact.md
+
