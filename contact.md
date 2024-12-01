@@ -33,14 +33,9 @@ layout: default
 </div>
 
 # Contact Me
--📧 Email: [r.bretin.1@research.gla.ac.uk](mailto:r.bretin.1@research.gla.ac.uk)
-- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/robin-bretin-21974015a/)
-- ResearchGate: [My ResearchGate Profile](https://www.researchgate.net/profile/Robin-Bretin)
-- ORCID: [My ORCID](https://orcid.org/0000-0003-2918-1901)
-- Google Scholar: [My Google Scholar Profile](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr)
-
-
-<i class="fas fa-book"></i>
-<i class="fab fa-linkedin">
-<i class="fas fa-graduation-cap">
-<i class="fab fa-orcid"></i>
+- 📧 Email: [r.bretin.1@research.gla.ac.uk](mailto:r.bretin.1@research.gla.ac.uk)
+- <i class="fab fa-linkedin"> [LinkedIn](https://www.linkedin.com/in/robin-bretin-21974015a/)
+- <i class="fa-brands fa-researchgate"></i> [ResearchGate Profile](https://www.researchgate.net/profile/Robin-Bretin)
+- <i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0003-2918-1901)
+- <i class="fas fa-graduation-cap"> [Google Scholar](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr)
+- <i class="fab fa-github"></i> [GitHub](https://github.com/RobinBretin)
