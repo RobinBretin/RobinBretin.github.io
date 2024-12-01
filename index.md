@@ -3,82 +3,34 @@ title: "Home"
 layout: default
 ---
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4">Research Journey</span>
-      </a>
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="research.html" class="nav-link">Research</a></li>
-        <li class="nav-item"><a href="publication.html" class="nav-link">Publications</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-      </ul>
-    </header>
-  </div>
-
-<div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/moi.jpg" class="d-block w-100" alt="First Slide">
-      <div class="carousel-caption-below">
-        <h5>First Slide Title</h5>
-        <p>Short description of the image.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/moi.jpg" class="d-block w-100" alt="Second Slide">
-      <div class="carousel-caption-below">
-        <h5>Second Slide Title</h5>
-        <p>Short description of the image.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/moi.jpg" class="d-block w-100" alt="Third Slide">
-      <div class="carousel-caption-below">
-        <h5>Third Slide Title</h5>
-        <p>Short description of the image.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
 <style>
-  .carousel-caption-below {
-    text-align: center;
-    padding: 10px;
-    background-color: #f8f9fa; /* Optional: Light gray background */
-    border-top: 1px solid #ddd; /* Optional: Separator line */
-  }
+/* Make sure the header styles are not affected by Bootstrap */
+.site-header {
+    all: unset;  /* Reset all inherited styles from Bootstrap */
+    position: relative;
+    padding: 20px;
+    background: #fff; /* Or whatever background you want */
+    border-bottom: 1px solid #ccc; /* Optional, if you want a border */
+    text-align: center; /* Or adjust as needed */
+}
 
-  .carousel-caption-below h5 {
-    margin: 5px 0;
-    font-size: 1.25em;
-  }
+.site-header h1,
+.site-header nav {
+    font-weight: normal;  /* Ensure that the default header text style is kept */
+    font-size: 2rem;
+}
 
-  .carousel-caption-below p {
-    margin: 0;
-    font-size: 1em;
-    color: #666;
-  }
+/* Hide the footer */
+.site-footer {
+    display: none;
+}
+
 </style>
 
-<!-- Separator Line -->
-  <hr class="my-4">
-
 <style>
+
+
+
     /* Outer container to hold both the profile and content */
     .container {
         display: flex;
@@ -179,7 +131,7 @@ layout: default
 
         <div class="state-box">
             <p><strong>Current Status:</strong> <em>last updated 01/12/2024</em></p>
-            <p>Thesis submitted, preparing my Viva for early December 2024. Looking for Post-Doc opportunities, feel free to contact me!</p>
+            <p>Thesis submitted, preparing my Viva for early December 2024. Starting a Post Doctoral position at Télécom Paris in February 2025. Open to collaborations, feel free to contact me!</p>
         </div>
 
         <p>I’m a curious researcher with a passion for learning and exploring. In my research, I focuses on how people use space around autonomous drones and explored the use of XR (Extended Reality) as a tool in this field. Recognizing the lack of a theoretical foundation, I developed a model informed by existing proxemic theories, supported by empirical findings collected through user studies. Alongside this, I created guidelines and shared resources to help researchers effectively employ XR in human-drone proxemic studies.</p>
@@ -205,8 +157,9 @@ layout: default
         
             <div class="title-section">
                 <img src="https://pbs.twimg.com/profile_images/1178956117403152384/6RH8cW7j_400x400.png" class="institution-logo" alt="Institution Logo">
-                <p><strong>Post Doctorale Researcher </strong> at Télécom Paris (since February 2025)</p>
-                <p class="qualification">XR for Crisis Managment</p>
+                <p><strong>Post Doctorale Researcher </strong> at Télécom Paris</p>
+                <p class="qualification">(from February 2025)</p>
+                <p> XR for Crisis Managment </p>
             </div>
 
             <div class="title-section">
@@ -249,6 +202,64 @@ layout: default
 - 📄 [My CV](cv.pdf) - 📚 [Publications](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr) - 🖇️ [Contact Me](r.bretin.1@research.gla.ac.uk)
 
 
+<!-- Separator Line -->
+  <hr class="my-4">
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/moi.jpg" class="d-block w-100" alt="First Slide">
+      <div class="carousel-caption-below">
+        <h5>First Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/moi.jpg" class="d-block w-100" alt="Second Slide">
+      <div class="carousel-caption-below">
+        <h5>Second Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/moi.jpg" class="d-block w-100" alt="Third Slide">
+      <div class="carousel-caption-below">
+        <h5>Third Slide Title</h5>
+        <p>Short description of the image.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<style>
+  .carousel-caption-below {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa; /* Optional: Light gray background */
+    border-top: 1px solid #ddd; /* Optional: Separator line */
+  }
+
+  .carousel-caption-below h5 {
+    margin: 5px 0;
+    font-size: 1.25em;
+  }
+
+  .carousel-caption-below p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+  }
+</style>
 
 
