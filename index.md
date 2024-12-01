@@ -202,16 +202,25 @@ layout: default
         </div>
         
         <div class="title-container">
+        
             <div class="title-section">
-                <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="institution-logo" alt="University Logo">
+                <img src="https://pbs.twimg.com/profile_images/1178956117403152384/6RH8cW7j_400x400.png" class="institution-logo" alt="Institution Logo">
+                <p><strong>Post Doctorale Researcher </strong> at Télécom Paris (since February 2025)</p>
+                <p class="qualification">XR for Crisis Managment</p>
+            </div>
+
+            <div class="title-section">
+                <img src="https://pbs.twimg.com/profile_images/1172060955980775424/aXADZOek_400x400.jpg" class="institution-logo" alt="University of Glasgow Logo">
                 <p><strong>PhD Student</strong> (Psychology/Computing Science) at University of Glasgow</p>
                 <p class="qualification">Graduate in December 2024</p>
             </div>
             
             <div class="title-section">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh86n1YVfHLDAtUhyLxFdGXSPXVyqfyd6yMg&s" class="institution-logo" alt="Institution Logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh86n1YVfHLDAtUhyLxFdGXSPXVyqfyd6yMg&s" class="institution-logo" alt="ENSC Logo">
                 <p><strong>Cognitive Engineer</strong> (since 2020)</p>
             </div>
+
+            
         </div>
     </div>
 
