@@ -13,6 +13,33 @@ The knowledge and skills I gained from this work have also allowed me to contrib
 
 Outside of research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. By the time you've read this, I’ve probably already embarked on a new personal project.
 
+
+<style>
+    .state-box {
+        border: 2px solid blue;
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 8px;
+        width: fit-content;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+    .state-box p {
+        margin: 0;
+        text-align: left; /* Ensure the text inside the box is aligned left */
+    }
+    .state-box .date {
+        font-style: italic;
+        margin-top: 5px;
+    }
+</style>
+
+<div class="state-box">
+    <p class="date">(last updated 01/12/2024)</p>
+    <p>Thesis submitted, preparing for my Viva in early December 2024. I'm actively exploring Post Doc opportunities and would love to connect—feel free to reach out!</p>
+</div>
+
+
 <style>
     .state-box {
         border: 2px solid blue;
