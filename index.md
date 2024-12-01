@@ -3,10 +3,39 @@ title: "Your Name"
 layout: default
 ---
 # Welcome to My Research Page
-Hi, I'm Robin. Here, I share my research, publications, and projects.
+Hi there, and welcome to my research page! I’m Robin.
 
-## Current State
-I'm currently preparing my viva which will be held early December.
+I’m a curious researcher with a passion for learning and exploring new ideas. For my thesis, I focused on how people perceive and navigate the space around autonomous drones, using XR (Extended Reality) as a tool to study this interaction. Noticing a gap in the theoretical foundation, I developed a model based on existing proxemic theories, supported by insights from user studies. In parallel, I created guidelines and resources to help researchers effectively use XR in their own human-drone studies.
+
+The knowledge and skills I gained from this work have also allowed me to contribute to a range of exciting projects, from child safety in social VR and ATM authentication techniques to enhancing social robot interactions.
+
+Outside of research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. By the time you've read this, I’ve probably already embarked on a new personal project.
+
+<style>
+    .state-box {
+        border: 2px solid #333;
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 8px;
+        width: fit-content;
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+    }
+    .state-box h3 {
+        margin: 0;
+        font-size: 1.2em;
+    }
+    .state-box p {
+        margin: 5px 0 0;
+    }
+</style>
+
+<div class="state-box">
+    <h3>Current State:</h3>
+    <p></p>
+    <p>I'm also learning [language], and playing [instrument].</p>
+</div>
+
 
 ## Lastest Publications
 1. Robin Bretin, Emily Cross, and Mohamed Khamis. 2024. Co-existing with Drones: A Virtual Exploration of Proxemic Behaviours and Users’ Insights on Social Drones. International Journal of Social Robotics. https://doi.org/10.1007/s12369-024-01111-7
