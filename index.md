@@ -1,11 +1,13 @@
 ---
-title: "Your Name"
+title: "Home"
 layout: default
 ---
 # Welcome to My Research Page
 Hi there, and welcome to my research page! I’m Robin.
 
-I’m a curious researcher with a passion for learning and exploring new ideas. For my thesis, I focused on how people perceive and navigate the space around autonomous drones, using XR (Extended Reality) as a tool to study this interaction. Noticing a gap in the theoretical foundation, I developed a model based on existing proxemic theories, supported by insights from user studies. In parallel, I created guidelines and resources to help researchers effectively use XR in their own human-drone studies.
+I’m a curious researcher with a passion for learning and exploring new ideas.
+
+So far, my research focuses on how people navigate the space around autonomous drones, using XR (Extended Reality) as a tool to study this interaction. Noticing a gap in the theoretical foundation, I developed a model based on existing proxemic theories, supported by insights from user studies. In parallel, I created guidelines and resources to help researchers effectively use XR in their own human-drone studies.
 
 The knowledge and skills I gained from this work have also allowed me to contribute to a range of exciting projects, from child safety in social VR and ATM authentication techniques to enhancing social robot interactions.
 
@@ -13,7 +15,7 @@ Outside of research, my interests are all over the place, keeping me inspired an
 
 <style>
     .state-box {
-        border: 2px solid #333;
+        border: 2px solid green;
         background-color: #f4f4f4;
         padding: 10px;
         border-radius: 8px;
@@ -31,9 +33,9 @@ Outside of research, my interests are all over the place, keeping me inspired an
 </style>
 
 <div class="state-box">
-    <h3>Current State:</h3>
+    <h3>Currently</h3> (last updated 01/12/2024)
     <p></p>
-    <p>I'm also learning [language], and playing [instrument].</p>
+    <p>Thesis submitted, preparing my Viva for early December 2024.  Looking for Post Doc opportunities, do not hesitate to contact me.</p>
 </div>
 
 
