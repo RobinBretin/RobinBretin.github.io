@@ -129,7 +129,7 @@ layout: default
         <h1>About Me</h1>
 
         <div class="state-box">
-            <p><strong>Current Status:</strong> <em>last updated 01/12/2024</em></p>
+            <p>📌<strong>Current Status:</strong> <em>last updated 01/12/2024</em></p>
             <p>Thesis submitted, preparing my Viva for early December 2024. Starting a Post Doctoral position at Télécom Paris in February 2025. Open to collaborations, feel free to contact me!</p>
         </div>
 
@@ -146,7 +146,7 @@ layout: default
     <!-- Profile Box -->
     <div class="profile-box">
         <img src="assets/moi.jpg" alt="Profile Picture">
-        <h2>Robin BRETIN</h2>
+        <h2>Thomas BRETIN</h2>
         
         <div class="keywords">
             <strong>Keywords:</strong> Human–Drone Interaction, Proxemics, Mixed Reality Application to Research
@@ -197,27 +197,15 @@ layout: default
 </style>
 
 
-
-- 📄 [My CV](cv.pdf) - 📚 [Publications](https://scholar.google.com/citations?user=oTu1zfMAAAAJ&hl=fr) - 🖇️ [Contact Me](r.bretin.1@research.gla.ac.uk)
-
-
 <!-- Separator Line -->
   <hr class="my-4">
 
 
 
-<div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+<div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="5000">
   <div class="carousel-inner">
-    <!-- First item: Image -->
+    <!-- First item: Image --> 
     <div class="carousel-item active">
-      <img src="assets/moi.jpg" class="d-block w-100" alt="First Slide">
-      <div class="carousel-caption-below">
-        <h5>First Slide Title</h5>
-        <p>Short description of the image.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
       <img src="assets/path (1)-1.png" class="d-block w-100" alt="Third Slide">
       <div class="carousel-caption-below">
         <h5>Third Slide Title</h5>
@@ -313,15 +301,6 @@ layout: default
       </div>
     </div>
 
-    <div class="carousel-item">
-      <img src="assets/VRtoRW-1.png" class="d-block w-100" alt="Third Slide">
-      <div class="carousel-caption-below">
-        <h5>Third Slide Title</h5>
-        <p>Short description of the image.</p>
-      </div>
-    </div>
-
-
     <!-- Third item: Image -->
     <div class="carousel-item">
       <img src="assets/chalmers.png" class="d-block w-100" alt="Third Slide">
@@ -363,8 +342,6 @@ layout: default
         <p>Short description of the image.</p>
       </div>
     </div>
-
-
   </div>
 
   <!-- Carousel Controls -->
