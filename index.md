@@ -36,17 +36,18 @@ layout: default
     .profile-box h2 {
         font-size: 1.8em;
         margin: 0;
-        font-weight: bold;
+        font-weight: normal; /* Ensure it's not bold */
         line-height: 1.2;
     }
     .profile-box .keywords {
-        background-color: #007bff;
-        color: white;
+        background-color: #e6f7ff; /* Softer light blue */
+        color: #333;
         font-size: 0.9em;
         padding: 12px;
         border-radius: 8px;
         margin: 15px 0;
         line-height: 1.4;
+        font-weight: normal; /* Ensure it's not bold */
     }
     .profile-box .title-container {
         margin-top: 10px;
@@ -66,13 +67,14 @@ layout: default
     .profile-box .title-section p {
         margin: 5px 0;
         font-size: 1em;
-        font-weight: bold;
+        font-weight: normal; /* Ensure it's not bold */
         line-height: 1.3;
     }
     .profile-box .qualification {
         font-size: 0.9em;
         font-style: italic;
         margin-top: 5px;
+        font-weight: normal; /* Ensure it's not bold */
     }
     
     /* Content area style */
@@ -91,6 +93,8 @@ layout: default
     }
 </style>
 
+
+
 <div class="container">
     <!-- Profile Box -->
     <div class="profile-box">
@@ -98,7 +102,7 @@ layout: default
         <h2>Robin BRETIN</h2>
         
         <div class="keywords">
-            Human–Drone Interaction, Proxemics, Mixed Reality Application to Research
+            Keywords: Human–Drone Interaction, Proxemics, Mixed Reality Application to Research
         </div>
         
         <div class="title-container">
@@ -126,18 +130,6 @@ layout: default
     </div>
 </div>
 
-
-Hi there, and welcome to my research page! I’m Robin.
-
-I’m a curious researcher with a passion for learning and exploring new ideas.
-
-So far, my research focuses on how people navigate the space around autonomous drones, using XR (Extended Reality) as a tool to study this interaction. Noticing a gap in the theoretical foundation, I developed a model based on existing proxemic theories, supported by insights from user studies. In parallel, I created guidelines and resources to help researchers effectively use XR in their own human-drone studies.
-
-The knowledge and skills I gained from this work have also allowed me to contribute to a range of exciting projects, from child safety in social VR and ATM authentication techniques to enhancing social robot interactions.
-
-Outside of research, my interests are all over the place, keeping me inspired and thinking. These include playing music, reading, woodcarving, programming, video games, films, sports, and learning new languages. By the time you've read this, I’ve probably already embarked on a new personal project.
-
-
 <style>
     .state-box {
         border: 1px solid;
@@ -160,7 +152,7 @@ Outside of research, my interests are all over the place, keeping me inspired an
 </style>
 
 <div class="state-box">
-    <p class="title">Current Status </p><p class="date">(last updated 01/12/2024)</p>
+    <p><strong>Current Status </strong><p class="date">(last updated 01/12/2024)</p></p>
     <p>Thesis submitted, preparing for my Viva in early December 2024. I'm actively exploring Post Doc opportunities and would love to connect—feel free to reach out!</p>
 </div>
 
