@@ -9,21 +9,21 @@ layout: default
 <div id="researchCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/image1.jpg" class="d-block w-100" alt="First Slide">
+      <img src="assets/moi.jpg" class="d-block w-100" alt="First Slide">
       <div class="carousel-caption-below">
         <h5>First Slide Title</h5>
         <p>Short description of the image.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/image2.jpg" class="d-block w-100" alt="Second Slide">
+      <img src="assets/moi.jpg" class="d-block w-100" alt="Second Slide">
       <div class="carousel-caption-below">
         <h5>Second Slide Title</h5>
         <p>Short description of the image.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/image3.jpg" class="d-block w-100" alt="Third Slide">
+      <img src="assets/moi.jpg" class="d-block w-100" alt="Third Slide">
       <div class="carousel-caption-below">
         <h5>Third Slide Title</h5>
         <p>Short description of the image.</p>
@@ -155,6 +155,11 @@ layout: default
 
 
 <div class="container">
+     <h1>About Me</h1>
+     <div class="state-box">
+            <p><strong>Current Status:</strong> <em>last updated 01/12/2024</em></p>
+            <p>Thesis submitted, preparing my Viva for early December 2024. Looking for Post-Doc opportunities, feel free to contact me!</p>
+        </div>
     <!-- Profile Box -->
     <div class="profile-box">
         <img src="assets/moi.jpg" alt="Profile Picture">
